@@ -1,0 +1,148 @@
+html,body {
+    height:100%; 
+    width: 100%;
+    margin:0;
+    padding:0
+} 
+
+body {
+    font-family: "Century Gothic", "Trebuchet MS", "Helvetica", sans-serif;
+    letter-spacing: -0.5px;  
+    font-size: 12pt;
+}
+
+#imgmenu {
+    margin-top: -1px;
+    width: 80px;
+}
+
+ a {
+    color: black; /* Цвет ссылок */
+   }
+   A:visited {
+    color: black; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: black; /* Цвет активных ссылок */
+   }
+
+td {
+    vertical-align: top;
+}
+
+
+#dummy {
+    width: 80px;
+}
+
+#basis {
+    border-left: 1px solid black;
+    width: 1034px;
+}
+
+
+img {
+    overflow: hidden;
+     width:290px; 
+}
+
+.gmi {
+                    -webkit-transition: all 0.6s ease-out;
+                    -moz-transition: all 0.6s ease-out;
+                    -o-transition: all 0.6s ease-out;
+                    transition: all 0.1s ease-out; 
+}
+
+.gmi:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.61);
+    }
+h1 {
+    margin-bottom: 10px;
+   font-weight: 600; 
+    font-size: 13pt;
+}
+
+
+
+.column {
+        width: 290px;
+    margin-top: 50px;
+}
+
+#logotext {
+        margin-top: -50px;
+        font-weight: 600; 
+        font-size: 12pt;
+        letter-spacing: 2px; 
+        text-align: left;
+}
+
+#logohud {
+    width: 1000px;
+}
+
+#menutext {
+        margin-top: 12px;
+        font-weight:500;
+        font-size: 20pt;
+        letter-spacing: 2px;
+}
+
+#curtain {
+                    margin-top: -40px;
+                    -webkit-transition: margin-top 0.3s cubic-bezier(0, 0.3, 0.8, 1);
+                    -moz-transition: margin-top 0.3s cubic-bezier(0, 0.3, 0.8, 1);
+                    -o-transition: margin-top 0.3s cubic-bezier(0, 0.3, 0.8, 1);
+                    transition: margin-top 0.3s cubic-bezier(0, 0.3, 0.8, 1);
+}
+
+#engage {
+        cursor: pointer;
+        margin-top: 30px;
+        width: 80px;
+        height: 78px;
+        border: 0;
+        padding: 0; 
+        float: right;
+            clear: both;
+                        -webkit-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    -moz-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    -o-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+}
+
+#reengage {
+        cursor: pointer;
+        margin-top: -200px;
+        width: 80px;
+        height: 78px;
+        border: 0;
+        padding: 0;
+    float: right;
+    clear: both;
+                        -webkit-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    -moz-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    -o-transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+                    transition: margin-top 0s cubic-bezier(0, 0, 1, 1);
+}
+
+.deco {
+     text-decoration: none;
+}
+
+
+
+#Back {
+    outline: 1px solid #000;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-top: 100px;
+}
+
+#Backtext {
+    text-align: center;
+}
